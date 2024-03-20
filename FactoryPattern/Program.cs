@@ -47,4 +47,5 @@ IVehicleFactory carFactory = new CarFactory();
 IVehicle car2 = carFactory.CreateVehicle();
 car2.Park();
 car2.Drive();
-car2.Stop();    
+car2.Stop();
+car2.Drive();
